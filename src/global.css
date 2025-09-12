@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Medida usada como modelo padrão do projeto. */
+    font-size: 16px;
+}
+
+body {
+    background-color: #cbcbf9;
+    font-family: "Noto Sans", sans-serif;    
+}
+
+input, 
+button {
+    font-family: "Noto Sans", sans-serif;   
+}
+
+button {
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
